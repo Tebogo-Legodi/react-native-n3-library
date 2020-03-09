@@ -2,11 +2,11 @@
 
 ## Update your package.json
 
+```json
 "dependencies": {
-    "react": "16.9.0",
-    "react-native": "0.61.5",
-    `$"react-native-n3-library": "git+https://gitlab.blts.co.za/tebogol/nexgon3.git"`
+    "react-native-n3-library": "git+https://gitlab.blts.co.za/tebogol/nexgon3.git" //Add to your dependecy list
 }
+```
 
 
 ### Install Packages
@@ -17,7 +17,7 @@
 ```javascript
 import N3Library from 'react-native-n3-library';
 
-// Getting the serial No: What to do with the module?
+// Getting the serial No
 getDeviceSerialNo(){
 
     N3Library.getSerialNo((serialNo)=>{
