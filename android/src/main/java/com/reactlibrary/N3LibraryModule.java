@@ -35,7 +35,7 @@ public class N3LibraryModule extends ReactContextBaseJavaModule {
     public void getSerialNo(Callback errorCallback,Callback successCallback) {
 
         try{
-        DeviceEngine deviceEngine = APIProxy.getDeviceEngine();
+            DeviceEngine deviceEngine = APIProxy.getDeviceEngine();
             deviceSerialNo = deviceEngine.getDeviceInfo().getSn().toString();
             successCallback.invoke(deviceSerialNo);
         }
