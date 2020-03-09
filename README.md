@@ -4,7 +4,7 @@
 
 ```json
 "dependencies": {
-    "react-native-n3-library": "git+https://gitlab.blts.co.za/tebogol/nexgon3.git" //Add to your dependecy list
+    "react-native-n3-library": "git+https://gitlab.blts.co.za/tebogol/nexgon3.git" 
 }
 ```
 
