@@ -32,7 +32,7 @@ public class N3LibraryModule extends ReactContextBaseJavaModule {
     }
 
     @ReactMethod
-    public void getSerialNo(Callback errorCallback,Callback successCallback) {
+    public void getSerialNo(Callback successCallback,Callback errorCallback) {
 
         try{
             DeviceEngine deviceEngine = APIProxy.getDeviceEngine();
