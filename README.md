@@ -202,7 +202,7 @@ async print(){
 
 ## Usage (Get Serial Number)
 ```js
-import {getSerialNumber} from 'react-native-n3-printer';
+import {getSerialNumber} from 'react-native-n3-library';
 
 //Method to get Serial No
 async getSerialNo(){
